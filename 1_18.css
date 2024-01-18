@@ -1,0 +1,153 @@
+/* Reset some default styles for consistency */
+body, h1, h2, p, ol, ul, li, table, th, td, form {
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  body {
+    background-image: url('./Mount-Timpanogos.webp');
+    background-size: cover; /* Adjusts the size of the background image to cover the entire body */
+    background-position: center; /* Centers the background image */
+    background-repeat: no-repeat; /* Prevents the background image from repeating */
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333; /* Adjust text color based on your background image */
+    background-color: rgba(116, 177, 47, 0.3); /* Adjust the alpha (0.7) for transparency */
+  }
+  .h1_1 {
+    color:rgb(116, 177, 47);
+    background-color: rgb(190, 15, 45);
+  }
+  
+  h1 {
+    color: #333;
+    background-color:rgba(106, 192, 7, 0.832);
+    text-align: center;
+  }
+  
+  h2 {
+    color: #666;
+    text-align: center;
+  }
+  
+  ol {
+    list-style-type: decimal;
+    margin-left: 20px;
+  }
+  
+  p {
+    margin-bottom: 15px;
+  }
+
+  #my_name {
+    color: #f2c615;
+    font-weight: bold;
+  }
+  
+  /* span {
+  } */
+  
+  ol li {
+    text-align: center;
+  }
+
+  .styled-table table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+    background-color: #f2f2f288;
+  }
+  
+  .styled-table th, .styled-table td {
+    border: 1px solid #000;
+    padding: 8px;
+  }
+
+  .styled-table th {
+    background-color: #f2f2f288;
+  }
+
+  #p1 {
+    color: white;
+    text-align: center;
+  }
+  
+  th, td {
+    border: 1px solid #000;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  thead th {
+    background-color: #f2f2f2;
+  }
+  
+  form {
+    margin-top: 20px;
+  }
+  
+  input, label {
+    margin-bottom: 10px;
+    display: block;
+  }
+
+  .styled-table {
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .styled-list {
+    text-align: center;
+    color: white;
+  }
+  .styled-list ol {
+    list-style: none;
+    counter-reset: my_counter;
+    display: inline-block;
+    padding-left: 0;
+  }
+  .styled-list li {
+    position: relative;
+    counter-increment: my-counter;
+    margin-bottom: 10px;
+  }
+
+  .styled-list li::before {
+    content: counter(my-counter);
+    display: inline-block;
+    width: 20px;
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+  
+  input[type="radio"],
+  input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  
+  input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+
+  .bold {
+    font-weight: bold;
+  }
+  

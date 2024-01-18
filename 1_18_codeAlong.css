@@ -1,0 +1,53 @@
+*{
+    margin: 0px
+}
+
+
+header{
+    background-color: chartreuse;
+    height: 10vh;
+    text-align: center;
+    font-size: 250%;
+}
+
+.lie {
+    color: red;
+}
+
+.truth {
+    color: green;
+}
+
+ol li {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 20px;
+    text-decoration: underline;
+    border: 3px solid black;
+    width: fit-content;
+    
+}
+
+#parent {
+    background-color: burlywood;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 200px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.child{
+    background-color: saddlebrown;
+    width: 100px;
+    height: 100px;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
